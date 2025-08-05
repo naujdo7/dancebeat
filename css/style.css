@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.cabecalho {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18.3px;
+}
+
+header {
+    background-color: #BBDEFB;
+}
+
+.divCabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    padding: 0px 100px 0px 100px;
+}
+
+ul {
+    background-color: #1976D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.08vw;
+}
+
+li {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    width: 147px;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    opacity: 50%;
+    font-size: 17px;
+}
+
+main {
+    width: 100%;
+}
+
+#inicio {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 70%, #000000 100%), url("../img/bailarina-teste.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.875vw;
+}
+
+.bailarina-texto {
+    padding: 40px 0px 0px 40px;
+    width: 700px;
+    display: inline-block;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    color: #BBDEFB;
+}
+
+#botao-matricula {
+    color: white;
+    background-color: #1976D2;
+    font-size: 30px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+#estilos {
+    background-color: #000000;
+}

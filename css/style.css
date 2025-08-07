@@ -11,7 +11,7 @@
 .cabecalho {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 18.3px;
+    font-size: 0.938vw;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 5.208vw 0px 5.208vw;
 }
 
 ul {
@@ -40,16 +40,16 @@ ul {
 li {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.781vw;
     text-decoration: none;
-    width: 147px;
+    width: 7.656vw;
     display: flex;
     justify-content: center;
 }
 
 li:hover {
     opacity: 50%;
-    font-size: 17px;
+    font-size: 0.885vw;
 }
 
 main {
@@ -61,32 +61,32 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 46.875vw;
+    height: 47.875vw;
 }
 
 .bailarina-texto {
-    padding: 40px 0px 0px 40px;
-    width: 700px;
+    padding: 2.08vw 0px 0px 2.08vw;
+    width: 36.458vw;
     display: inline-block;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 120px;
+    font-size: 6.25vw;
     color: #BBDEFB;
 }
 
 #botao-matricula {
     color: white;
     background-color: #1976D2;
-    font-size: 40px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    font-size: 2.083vw;
+    padding: 0.521vw 1.042vw 0.521vw 1.042vw;
+    border-radius: 1.042vw;
     border-style: none;
     font-family: 'Bebas Neue';
 }
 
 .icon {
-    padding-right: 50px;
+    padding-right: 2.604vw;
 }
 
 #estilos {
@@ -96,6 +96,7 @@ main {
 h2 {
     color: #BBDEFB;
     font-family: 'Bebas Neue';
-    font-size: 70px;
-    
+    font-size: 3.646vw;
+    text-align: center;
+    padding: 2.604vw 0px 2.604vw 0px;
 }

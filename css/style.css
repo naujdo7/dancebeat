@@ -51,7 +51,7 @@ a {
     justify-content: center;
 }
 
-li:hover {
+a:hover {
     opacity: 50%;
     font-size: 0.805vw;
 }
@@ -64,6 +64,7 @@ h1, h2, h3 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: #BBDEFB;
 }
 
 #inicio {
@@ -79,7 +80,6 @@ h1, h2, h3 {
     width: 36.458vw;
     display: inline-block;
     font-size: 6.25vw;
-    color: #BBDEFB;
 }
 
 #botao-matricula {
@@ -96,22 +96,20 @@ h1, h2, h3 {
     padding-right: 2.604vw;
 }
 
-#estilos {
-    background-color: #000000;
+#background {
+background: linear-gradient(180deg, #000000 0%, #1976D2 30%, #0D47A1 100%)
 }
 
 h2 {
-    color: #BBDEFB;
     font-size: 3.646vw;
     text-align: center;
-    padding: 2.604vw 0px 2.604vw 0px;
+    padding: 2.604vw 0px 5.208vw 0px;
 }
 
-.grid {
+#grid-danca {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
     row-gap: 1.042vw;
     padding: 0vw 0vw 2.604vw 0vw;
 }
@@ -123,8 +121,82 @@ h2 {
 }
 
 .dance-name {
-    font-size: 3.646vw;
-    color: #BBDEFB;
+    font-size: 2.604vw;
     text-align: center;
     padding: 0.521vw 0vw 0.521vw 0vw;
+}
+
+#flex-professores {
+    display: flex;
+    flex-direction: column;
+    gap: 5.208vw;
+    padding-bottom: 2.604vw;
+}
+
+#flex-professores article {
+    display: flex;           
+    justify-content: center;
+    gap: 5.208vw;
+}
+
+#professores img {
+    border-radius: 1.042vw;
+    box-shadow: 0px 0px 1.042vw 0.417vw rgb(0 0 0 / 40%);
+}
+
+.titulo-professor {
+    font-size: 3.646vw;
+    padding-bottom: 1.563vw;
+}
+
+.descricao-professor, .subtitulo-caixa {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #BBDEFB;
+}
+.descricao-professor {
+    font-size: 1.823vw;
+    width: 28.75vw;
+}
+
+#horarios article {
+    background-color: #1b1b1b;
+    border-radius: 0.521vw;
+    display: flex;
+    align-items: center;
+    width: 41.667vw;
+    height: 18.229vw;
+}
+
+#grid-horarios img {
+    width: 13.021vw;
+    height: 14.063vw;
+    margin: 0rem 1.875rem 0rem  1.875rem;
+    border-radius: .625rem;
+}
+
+#grid-horarios {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.25rem;
+}
+
+.textos-horarios {
+    width: 20.573vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.0625rem;
+}
+
+
+.titulo-caixa {
+    font-size: 2.083vw;
+}
+
+.subtitulo-caixa {
+    font-size: 1.563vw;
+    width: 12.344vw;
 }

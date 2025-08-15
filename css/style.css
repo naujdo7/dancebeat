@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .cabecalho {
     font-family: "Lato", sans-serif;
@@ -26,7 +29,7 @@ header {
 }
 
 .logo {
-    padding: 0px 5.208vw 0px 5.208vw;
+    padding: 0vw 5.208vw 0vw 5.208vw;
 }
 
 ul {
@@ -35,25 +38,32 @@ ul {
     justify-content: center;
     align-items: center;
     height: 2.08vw;
+    gap: 2.604vw;
 }
 
-li {
+a {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 0.781vw;
+    font-size: 0.780vw;
+    color: white;
     text-decoration: none;
-    width: 7.656vw;
     display: flex;
     justify-content: center;
 }
 
 li:hover {
     opacity: 50%;
-    font-size: 0.885vw;
+    font-size: 0.805vw;
 }
 
 main {
     width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #inicio {
@@ -65,12 +75,9 @@ main {
 }
 
 .bailarina-texto {
-    padding: 2.08vw 0px 0px 2.08vw;
+    padding: 2.08vw 0vw 0vw 2.08vw;
     width: 36.458vw;
     display: inline-block;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 6.25vw;
     color: #BBDEFB;
 }
@@ -95,8 +102,29 @@ main {
 
 h2 {
     color: #BBDEFB;
-    font-family: 'Bebas Neue';
     font-size: 3.646vw;
     text-align: center;
     padding: 2.604vw 0px 2.604vw 0px;
+}
+
+.grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    row-gap: 1.042vw;
+    padding: 0vw 0vw 2.604vw 0vw;
+}
+
+#estilos img {
+    width: 21.094vw;
+    height: 22.188vw;
+    border-radius: 0.781vw;
+}
+
+.dance-name {
+    font-size: 3.646vw;
+    color: #BBDEFB;
+    text-align: center;
+    padding: 0.521vw 0vw 0.521vw 0vw;
 }

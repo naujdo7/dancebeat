@@ -32,7 +32,7 @@ header {
     padding: 0vw 5.208vw 0vw 5.208vw;
 }
 
-ul {
+nav ul {
     background-color: #1976D2;
     display: flex;
     justify-content: center;
@@ -49,11 +49,12 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    transition: transform 0.5s ease;
 }
 
 a:hover {
-    opacity: 50%;
-    font-size: 0.805vw;
+    opacity: 70%;
+    transform: scale(1.05);
 }
 
 main {
@@ -89,15 +90,22 @@ h1, h2, h3 {
     padding: 0.521vw 1.042vw 0.521vw 1.042vw;
     border-radius: 1.042vw;
     border-style: none;
+    box-shadow: 0px 0px 1.042vw 0.417vw rgb(0 0 0 / 40%);
     font-family: 'Bebas Neue';
 }
+
+#botao-matricula:hover {
+    opacity: 80%;
+}
+
+
 
 .icon {
     padding-right: 2.604vw;
 }
 
 #background {
-background: linear-gradient(180deg, #000000 0%, #1976D2 30%, #0D47A1 100%)
+background: linear-gradient(180deg, #000000 0%, #1976D2 20%, #0D47A1 60%, #1976D2 80%, #0D47A1 100%);
 }
 
 h2 {
@@ -114,10 +122,20 @@ h2 {
     padding: 0vw 0vw 2.604vw 0vw;
 }
 
+#grid-danca article {
+    transition: transform 0.5s ease;
+}
+
+#grid-danca article:hover {
+    transform: scale(1.05);
+
+}
+
 #estilos img {
     width: 21.094vw;
     height: 22.188vw;
     border-radius: 0.781vw;
+    box-shadow: 0px 0px 1.042vw 0.417vw rgb(0 0 0 / 40%);
 }
 
 .dance-name {
@@ -167,13 +185,20 @@ h2 {
     align-items: center;
     width: 41.667vw;
     height: 18.229vw;
+    box-shadow: 0px 0px 1.042vw 0.417vw rgb(0 0 0 / 40%);
+    transition: transform 1s ease;
+}
+
+#horarios article:hover {
+    transform: scale(1.05);
+
 }
 
 #grid-horarios img {
     width: 13.021vw;
     height: 14.063vw;
     margin: 0rem 1.875rem 0rem  1.875rem;
-    border-radius: .625rem;
+    border-radius: 0.625rem;
 }
 
 #grid-horarios {
@@ -181,6 +206,7 @@ h2 {
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 6.25rem;
+    padding: 0rem 0rem 2.604vw 0rem;
 }
 
 .textos-horarios {
@@ -199,4 +225,46 @@ h2 {
 .subtitulo-caixa {
     font-size: 1.563vw;
     width: 12.344vw;
+}
+
+#contato h3 {
+    font-size: 3.646vw;
+    text-align: center;
+    padding: 0rem 0rem 2.604vw 0rem;
+}
+
+#contato {
+    background-color: #0d48a1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color: #BBDEFB;
+    text-align: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-bottom: 2.604vw;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .3125rem;
+}
+
+.footer-maps {
+    width: 500px;
+    height: 300px;
+    clip-path: inset(0 0 0 0 round 12px);
+}
+
+.footer-lista1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  gap: .3125rem;
 }
